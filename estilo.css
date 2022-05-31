@@ -6,9 +6,15 @@ body {
   margin: 0px;
 } /*box-sizing border-box e body margin 0px são estruturas padrão na maioria dos projetos.*/
 
-.exemplo {
-  background-color: #993399;
-  width: 400px;
-  height: 400px;
-  margin: 20px;
+.link {
+  color: green;
+  font-size: 30px;
+}
+
+.link:hover {
+  color: red;
+}
+
+.link:visited {
+  color: pink;
 }
