@@ -7,13 +7,3 @@ body {
   font-size: 17px;
   /*background-color: darkgray;*/
 } /*box-sizing border-box e body margin 0px são estruturas padrão na maioria dos projetos.*/
-
-h1 {
-  font-family: "Indie Flower";
-}
-
-p {
-  color: #990099;
-  font-size: 20px;
-  font-family: "Chilanka";
-}
