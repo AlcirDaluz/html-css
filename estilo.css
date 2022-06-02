@@ -7,3 +7,33 @@ body {
   font-size: 17px;
   background-color: darkgray;
 } /*box-sizing border-box e body margin 0px são estruturas padrão na maioria dos projetos.*/
+
+table {
+  width: 600px;
+}
+
+table thead {
+  background-color: blueviolet;
+}
+
+table tbody {
+  background-color: darkmagenta;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: coral;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+th {
+  font-weight: normal;
+}
