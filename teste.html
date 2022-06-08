@@ -8,17 +8,26 @@
 </head>
 
 <body>
-  <form method="post">
+  <form method="post" action="paginas/login.html">
 
     <fieldset>
       <legend>Dados Pessoais</legend>
       <label>
         Primeiro Nome:<br />
-        <input type="text" name="name">
+        <input type="text" name="name" required minlength="2">
       </label><br />
       <label>
         Sobrenome:<br />
         <input type="text" name="lastname">
+      </label><br />
+      <label>
+        E-mail:<br />
+        <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+          title="endereço de email">
+      </label><br />
+      <label>
+        Data de nascimento:<br />
+        <input type="date" name="birthdate">
       </label><br />
     </fieldset>
 
