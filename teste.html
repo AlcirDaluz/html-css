@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<form method="get" action="paginas/login.html">
+	<form method="post" action="paginas/login.html" enctype="multipart/form-data">
 		<input type="hidden" name="country" value="BR">
 
 		<fieldset>
@@ -20,6 +20,10 @@
 			<label>
 				Sobrenome:<br />
 				<input type="text" name="lastname">
+			</label><br />
+			<label>
+				Foto:<br />
+				<input type="file" name="photo" accept="image/*">
 			</label><br />
 		</fieldset>
 
