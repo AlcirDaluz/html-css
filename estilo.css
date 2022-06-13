@@ -1,11 +1,7 @@
-fieldset {
-  background-color: #eee;
-  margin-bottom: 20px;
-  border: 2px solid #bd93f9;
+body {
+  margin: 0px;
 }
 
-legend {
-  background-color: #bd93f9;
-  color: #ffffff;
-  padding: 5px;
+.container {
+  color: #ff0000;
 }
