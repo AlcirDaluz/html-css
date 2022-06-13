@@ -1,7 +1,17 @@
-body {
-  margin: 0px;
+html {
+  font-size: 10px;
 }
 
-.container {
-  color: #ff0000;
+h1 {
+  font-size: 3rem;
+}
+
+.box {
+  font-size: 2rem;
+}
+
+.box-interno {
+  width: 20rem;
+  height: 20rem;
+  background-color: #999999;
 }
