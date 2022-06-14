@@ -1,17 +1,15 @@
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 3rem;
+body {
+  margin: 0;
 }
 
 .box {
-  font-size: 2rem;
+  font-size: 15px;
 }
 
-.box-interno {
-  width: 20rem;
-  height: 20rem;
-  background-color: #999999;
+h1 {
+  font-size: 30px;
+}
+
+.box h1 {
+  font-size: inherit;
 }
