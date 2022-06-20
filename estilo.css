@@ -1,25 +1,18 @@
-body {
-	margin: 0;
+:root {
+	--bg-color: #ffffff;
+	--bg-second: #cccccc;
+	--font-color: #ff0000;
 }
 
-table,
-td {
-	border: 2px solid #000000;
+body {
+	background-color: var(--bg-color);
 }
 
 h1 {
-	font-size: 40px;
-	font-weight: bold;
+	color: var(--font-color);
 }
 
-@media only print {
-	h1 {
-		font-size: 20px;
-		font-weight: normal;
-	}
-
-	table,
-	td {
-		border: 0;
-	}
+.container {
+	background-color: var(--bg-second);
+	color: var(--font-color);
 }
