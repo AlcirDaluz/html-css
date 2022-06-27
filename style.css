@@ -1,16 +1,18 @@
 body {
 	/*box-sizing: border-box;*/
 	margin: 0px;
-	background-color: #eeeeee;
+	/*background-color: #eeeeee;*/
+	background: linear-gradient(-90deg, black, purple);
 }
 
 form {
-	width: 160px;
+	width: 180px;
 	height: 150px;
 	background-color: #dddddd;
 	margin: auto;
 	padding: 20px;
 	margin-top: 20px;
+	border-radius: 10px;
 }
 
 input {
