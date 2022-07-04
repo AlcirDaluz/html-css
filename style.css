@@ -1,9 +1,12 @@
 .container {
 	display: flex;
 	height: 500px;
+	flex-wrap: wrap;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	background-color: #dddddd;
+	align-content: space-around;
 }
 
 .container div {
