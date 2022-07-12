@@ -1,9 +1,3 @@
-div {
-	margin: 20px;
-	height: 30px;
-}
-
-div:empty {
-	display: none;
+div:nth-last-child(2) {
 	background-color: #ff0000;
 }
