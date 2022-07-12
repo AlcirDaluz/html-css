@@ -1,19 +1,9 @@
-.container {
-	display: flex;
-	height: 500px;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	background-color: #dddddd;
-	align-content: space-around;
+div {
+	margin: 20px;
+	height: 30px;
 }
 
-.container div {
-	width: 100px;
-	height: 100px;
+div:empty {
+	display: none;
 	background-color: #ff0000;
-	margin: 10px;
-	padding: 10px;
-	font-size: 18px;
 }
